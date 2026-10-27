@@ -1,0 +1,39 @@
+{
+  "markovian": {
+    "generatorCalls": 2,
+    "configuredChunkSize": 2400,
+    "firstChunkEstimatedOutputTokens": 3125,
+    "outputExceededConfiguredChunkSize": true,
+    "historyExistsDuringSecondCall": false,
+    "historyExistsAfterRun": true,
+    "secondPromptContainsEndOfGoalConstraint": false,
+    "secondPromptContainsFullPriorOutput": false,
+    "resumeMethodType": "undefined",
+    "states": [
+      {
+        "attachments": 1,
+        "promptLength": 678
+      },
+      {
+        "attachments": 0,
+        "promptLength": 653
+      }
+    ]
+  },
+  "toolMarker": {
+    "generatorCalls": 2,
+    "finalStatus": "completed",
+    "chunks": 2
+  },
+  "worldModel": {
+    "insertedRelationships": [
+      "A->B",
+      "A->C"
+    ],
+    "currentNeighbors": [
+      "C"
+    ],
+    "explanation": "A second open relationship with same from/type/context and different target closes the first in this reference.",
+    "buildPromptContextMethodType": "undefined"
+  }
+}

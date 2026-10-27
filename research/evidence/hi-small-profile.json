@@ -1,0 +1,149 @@
+{
+  "source": "https://www.kaggle.com/api/v1/datasets/download/ealtman2019/ibm-transactions-for-anti-money-laundering-aml/HI-Small_Trans.csv",
+  "publisher_version": 8,
+  "file_bytes": 475664283,
+  "sha256": "b19d39f515523373f991b689c07e11e7b0b95c17a2c27a87d91584ae16c5b040",
+  "rows": 5078345,
+  "header": [
+    "Timestamp",
+    "From Bank",
+    "Account",
+    "To Bank",
+    "Account",
+    "Amount Received",
+    "Receiving Currency",
+    "Amount Paid",
+    "Payment Currency",
+    "Payment Format",
+    "Is Laundering"
+  ],
+  "earliest_timestamp": "2022/09/01 00:00",
+  "latest_timestamp": "2022/09/18 16:18",
+  "payment_formats": {
+    "Reinvestment": 481056,
+    "Cheque": 1864331,
+    "Credit Card": 1323324,
+    "ACH": 600797,
+    "Cash": 490891,
+    "Wire": 171855,
+    "Bitcoin": 146091
+  },
+  "paid_currencies": {
+    "US Dollar": 1895172,
+    "Bitcoin": 146066,
+    "Euro": 1168297,
+    "Australian Dollar": 136769,
+    "Yuan": 213752,
+    "Rupee": 190202,
+    "Yen": 155209,
+    "Mexican Peso": 110159,
+    "UK Pound": 180738,
+    "Ruble": 155178,
+    "Canadian Dollar": 140042,
+    "Swiss Franc": 234860,
+    "Brazil Real": 70703,
+    "Saudi Riyal": 89014,
+    "Shekel": 192184
+  },
+  "received_currencies": {
+    "US Dollar": 1879341,
+    "Bitcoin": 148151,
+    "Euro": 1172017,
+    "Australian Dollar": 138511,
+    "Yuan": 206551,
+    "Rupee": 192065,
+    "Mexican Peso": 111030,
+    "Yen": 156319,
+    "UK Pound": 181255,
+    "Ruble": 157361,
+    "Canadian Dollar": 141357,
+    "Swiss Franc": 237884,
+    "Brazil Real": 71544,
+    "Saudi Riyal": 89971,
+    "Shekel": 194988
+  },
+  "active_bank_account_pairs": 515088,
+  "active_entity_ids": 166207,
+  "unmatched_bank_account_pairs": 0,
+  "non_decimal_bank_id_rows": 0,
+  "self_transfer_rows": 591212,
+  "cross_currency_rows": 72170,
+  "missing_cells": 0,
+  "adjacent_timestamp_regressions": 2418736,
+  "adjacent_duplicate_full_rows": 0,
+  "full_nonadjacent_duplicate_check": "separate audit; run audit_duplicates.py and see duplicate-profile.json",
+  "per_day": [
+    {
+      "day": "2022/09/01",
+      "transactions": 1114921
+    },
+    {
+      "day": "2022/09/02",
+      "transactions": 754449
+    },
+    {
+      "day": "2022/09/03",
+      "transactions": 207382
+    },
+    {
+      "day": "2022/09/04",
+      "transactions": 207430
+    },
+    {
+      "day": "2022/09/05",
+      "transactions": 482650
+    },
+    {
+      "day": "2022/09/06",
+      "transactions": 482089
+    },
+    {
+      "day": "2022/09/07",
+      "transactions": 482751
+    },
+    {
+      "day": "2022/09/08",
+      "transactions": 482773
+    },
+    {
+      "day": "2022/09/09",
+      "transactions": 654467
+    },
+    {
+      "day": "2022/09/10",
+      "transactions": 208325
+    },
+    {
+      "day": "2022/09/11",
+      "transactions": 396
+    },
+    {
+      "day": "2022/09/12",
+      "transactions": 281
+    },
+    {
+      "day": "2022/09/13",
+      "transactions": 184
+    },
+    {
+      "day": "2022/09/14",
+      "transactions": 121
+    },
+    {
+      "day": "2022/09/15",
+      "transactions": 46
+    },
+    {
+      "day": "2022/09/16",
+      "transactions": 46
+    },
+    {
+      "day": "2022/09/17",
+      "transactions": 23
+    },
+    {
+      "day": "2022/09/18",
+      "transactions": 11
+    }
+  ]
+}

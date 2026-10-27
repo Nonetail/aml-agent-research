@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "expected": {
+    "transactions": 5078345,
+    "accounts": 515088,
+    "components": 114139
+  },
+  "largest_component": {
+    "component_id": 0,
+    "representative_bank": "10",
+    "representative_account": "8000EBD30",
+    "accounts": 372089,
+    "transactions": 4874569
+  },
+  "self_rows": 591212,
+  "min_timestamp": "2022/09/01 00:00",
+  "max_timestamp": "2022/09/18 16:18",
+  "scan_seconds": 1.450593333,
+  "inventory_totals_match": true,
+  "histogram_totals_match": true
+}

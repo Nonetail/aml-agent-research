@@ -1,0 +1,92 @@
+{
+  "retrieved_date": "2026-10-23",
+  "view_url": "https://www.kaggle.com/api/v1/datasets/view/ealtman2019/ibm-transactions-for-anti-money-laundering-aml",
+  "list_url": "https://www.kaggle.com/api/v1/datasets/list/ealtman2019/ibm-transactions-for-anti-money-laundering-aml",
+  "publisher_current_version": 8,
+  "publisher_last_updated": "2025-07-08T14:59:13.28Z",
+  "package_total_bytes": 41608549656,
+  "files": [
+    {
+      "name": "HI-Large_Patterns.txt",
+      "bytes": 13807473
+    },
+    {
+      "name": "HI-Large_Trans.csv",
+      "bytes": 17052760651
+    },
+    {
+      "name": "HI-Large_accounts.csv",
+      "bytes": 147691860
+    },
+    {
+      "name": "HI-Medium_Patterns.txt",
+      "bytes": 2279574
+    },
+    {
+      "name": "HI-Medium_Trans.csv",
+      "bytes": 3031783420
+    },
+    {
+      "name": "HI-Medium_accounts.csv",
+      "bytes": 145008642
+    },
+    {
+      "name": "HI-Small_Patterns.txt",
+      "bytes": 323844
+    },
+    {
+      "name": "HI-Small_Trans.csv",
+      "bytes": 475664283
+    },
+    {
+      "name": "HI-Small_accounts.csv",
+      "bytes": 34053187
+    },
+    {
+      "name": "LI-Large_Patterns.txt",
+      "bytes": 1934790
+    },
+    {
+      "name": "LI-Large_Trans.csv",
+      "bytes": 16742513790
+    },
+    {
+      "name": "LI-Large_accounts.csv",
+      "bytes": 144349585
+    },
+    {
+      "name": "LI-Medium_Patterns.txt",
+      "bytes": 390893
+    },
+    {
+      "name": "LI-Medium_Trans.csv",
+      "bytes": 2976436978
+    },
+    {
+      "name": "LI-Medium_accounts.csv",
+      "bytes": 141781157
+    },
+    {
+      "name": "LI-Small_Patterns.txt",
+      "bytes": 99156
+    },
+    {
+      "name": "LI-Small_Trans.csv",
+      "bytes": 650422357
+    },
+    {
+      "name": "LI-Small_accounts.csv",
+      "bytes": 47248016
+    }
+  ],
+  "publisher_rounded_transaction_counts": {
+    "HI-Small": 5000000,
+    "LI-Small": 7000000,
+    "HI-Medium": 32000000,
+    "LI-Medium": 31000000,
+    "HI-Large": 180000000,
+    "LI-Large": 176000000
+  },
+  "rounded_counts_source": "https://arxiv.org/html/2306.16424v3#A1",
+  "note": "Counts in publisher table are rounded; local row counts reported separately. The six variants are independent simulations, not nested partitions."
+}

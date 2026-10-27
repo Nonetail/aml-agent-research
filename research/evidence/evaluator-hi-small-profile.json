@@ -1,0 +1,209 @@
+{
+  "source": "https://www.kaggle.com/api/v1/datasets/download/ealtman2019/ibm-transactions-for-anti-money-laundering-aml/HI-Small_Trans.csv",
+  "publisher_version": 8,
+  "file_bytes": 475664283,
+  "sha256": "b19d39f515523373f991b689c07e11e7b0b95c17a2c27a87d91584ae16c5b040",
+  "rows": 5078345,
+  "header": [
+    "Timestamp",
+    "From Bank",
+    "Account",
+    "To Bank",
+    "Account",
+    "Amount Received",
+    "Receiving Currency",
+    "Amount Paid",
+    "Payment Currency",
+    "Payment Format",
+    "Is Laundering"
+  ],
+  "earliest_timestamp": "2022/09/01 00:00",
+  "latest_timestamp": "2022/09/18 16:18",
+  "labels": {
+    "0": 5073168,
+    "1": 5177
+  },
+  "positive_rate": 0.0010194266045335635,
+  "per_day": [
+    {
+      "day": "2022/09/01",
+      "transactions": 1114921,
+      "positive_labels": 322,
+      "positive_rate": 0.0002888097004182359
+    },
+    {
+      "day": "2022/09/02",
+      "transactions": 754449,
+      "positive_labels": 408,
+      "positive_rate": 0.0005407920217271148
+    },
+    {
+      "day": "2022/09/03",
+      "transactions": 207382,
+      "positive_labels": 391,
+      "positive_rate": 0.0018854095340964981
+    },
+    {
+      "day": "2022/09/04",
+      "transactions": 207430,
+      "positive_labels": 407,
+      "positive_rate": 0.0019621076989827894
+    },
+    {
+      "day": "2022/09/05",
+      "transactions": 482650,
+      "positive_labels": 471,
+      "positive_rate": 0.0009758624261887496
+    },
+    {
+      "day": "2022/09/06",
+      "transactions": 482089,
+      "positive_labels": 531,
+      "positive_rate": 0.0011014563700893403
+    },
+    {
+      "day": "2022/09/07",
+      "transactions": 482751,
+      "positive_labels": 497,
+      "positive_rate": 0.001029516251649401
+    },
+    {
+      "day": "2022/09/08",
+      "transactions": 482773,
+      "positive_labels": 539,
+      "positive_rate": 0.0011164667452405169
+    },
+    {
+      "day": "2022/09/09",
+      "transactions": 654467,
+      "positive_labels": 514,
+      "positive_rate": 0.0007853719133279447
+    },
+    {
+      "day": "2022/09/10",
+      "transactions": 208325,
+      "positive_labels": 442,
+      "positive_rate": 0.002121684867394696
+    },
+    {
+      "day": "2022/09/11",
+      "transactions": 396,
+      "positive_labels": 232,
+      "positive_rate": 0.5858585858585859
+    },
+    {
+      "day": "2022/09/12",
+      "transactions": 281,
+      "positive_labels": 170,
+      "positive_rate": 0.604982206405694
+    },
+    {
+      "day": "2022/09/13",
+      "transactions": 184,
+      "positive_labels": 106,
+      "positive_rate": 0.5760869565217391
+    },
+    {
+      "day": "2022/09/14",
+      "transactions": 121,
+      "positive_labels": 70,
+      "positive_rate": 0.5785123966942148
+    },
+    {
+      "day": "2022/09/15",
+      "transactions": 46,
+      "positive_labels": 28,
+      "positive_rate": 0.6086956521739131
+    },
+    {
+      "day": "2022/09/16",
+      "transactions": 46,
+      "positive_labels": 26,
+      "positive_rate": 0.5652173913043478
+    },
+    {
+      "day": "2022/09/17",
+      "transactions": 23,
+      "positive_labels": 15,
+      "positive_rate": 0.6521739130434783
+    },
+    {
+      "day": "2022/09/18",
+      "transactions": 11,
+      "positive_labels": 8,
+      "positive_rate": 0.7272727272727273
+    }
+  ],
+  "source_activity_periods": {
+    "primary": {
+      "start_inclusive": "2022/09/01",
+      "end_exclusive": "2022/09/11",
+      "transactions": 5077237,
+      "positive_labels": 4522,
+      "positive_rate": 0.000890641898339589
+    },
+    "tail": {
+      "start_inclusive": "2022/09/11",
+      "end_exclusive": "2022/09/19",
+      "transactions": 1108,
+      "positive_labels": 655,
+      "positive_rate": 0.5911552346570397
+    }
+  },
+  "payment_formats": {
+    "Reinvestment": 481056,
+    "Cheque": 1864331,
+    "Credit Card": 1323324,
+    "ACH": 600797,
+    "Cash": 490891,
+    "Wire": 171855,
+    "Bitcoin": 146091
+  },
+  "paid_currencies": {
+    "US Dollar": 1895172,
+    "Bitcoin": 146066,
+    "Euro": 1168297,
+    "Australian Dollar": 136769,
+    "Yuan": 213752,
+    "Rupee": 190202,
+    "Yen": 155209,
+    "Mexican Peso": 110159,
+    "UK Pound": 180738,
+    "Ruble": 155178,
+    "Canadian Dollar": 140042,
+    "Swiss Franc": 234860,
+    "Brazil Real": 70703,
+    "Saudi Riyal": 89014,
+    "Shekel": 192184
+  },
+  "received_currencies": {
+    "US Dollar": 1879341,
+    "Bitcoin": 148151,
+    "Euro": 1172017,
+    "Australian Dollar": 138511,
+    "Yuan": 206551,
+    "Rupee": 192065,
+    "Mexican Peso": 111030,
+    "Yen": 156319,
+    "UK Pound": 181255,
+    "Ruble": 157361,
+    "Canadian Dollar": 141357,
+    "Swiss Franc": 237884,
+    "Brazil Real": 71544,
+    "Saudi Riyal": 89971,
+    "Shekel": 194988
+  },
+  "active_bank_account_pairs": 515088,
+  "active_entity_ids": 166207,
+  "unmatched_bank_account_pairs": 0,
+  "non_decimal_bank_id_rows": 0,
+  "self_transfer_rows": 591212,
+  "cross_currency_rows": 72170,
+  "missing_cells": 0,
+  "adjacent_timestamp_regressions": 2418736,
+  "adjacent_duplicate_full_rows": 0,
+  "full_nonadjacent_duplicate_check": "separate audit; run audit_duplicates.py and see duplicate-profile.json",
+  "pattern_row_match_multiplicities": {
+    "1": 3209
+  }
+}

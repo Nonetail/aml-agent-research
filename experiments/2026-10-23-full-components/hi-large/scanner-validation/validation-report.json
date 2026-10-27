@@ -1,0 +1,38 @@
+{
+  "scanner_source_sha256": "50978b156da0b9057919225508d04ffe9226f9993143ac9a243ef960725d897d",
+  "scanner_binary_sha256": "b8cdea12550c6e6b3d688afa1a43ff733af9e66ea7dd67c9c2fa5712fa33e4ce",
+  "build_command": "clang++ -std=c++17 -O3 -DNDEBUG -Wall -Wextra -Wpedantic scan_components.cpp -o scan_components",
+  "compiler": "Apple clang 21.0.0 (clang-2100.3.34.2), arm64-apple-darwin27.0.0",
+  "fixture_cases_passed": 18,
+  "fixture_runtime_seconds": 0.12412150000000001,
+  "hi_small": {
+    "wall_seconds": 1.48,
+    "scan_seconds": 1.450593333,
+    "maximum_resident_bytes": 86654976,
+    "transactions": 5078345,
+    "accounts": 515088,
+    "components": 114139,
+    "largest_component": {
+      "component_id": 0,
+      "representative_bank": "10",
+      "representative_account": "8000EBD30",
+      "accounts": 372089,
+      "transactions": 4874569
+    },
+    "self_rows": 591212,
+    "inventory_and_histogram_totals_verified": true
+  },
+  "independent_review": {
+    "source_review": "No critical correctness findings",
+    "exact_component_accounts_transactions_multiset_match": true,
+    "components_compared": 114139,
+    "distinct_accounts_transactions_pairs": 202,
+    "both_exact_histograms_match": true
+  },
+  "limits": [
+    "Unquoted 11-field CSV only; quoted CSV rejected",
+    "32-bit node IDs with explicit capacity guard; row counts are 64-bit",
+    "Timestamp format YYYY/MM/DD HH:MM; extrema use lexical comparison",
+    "Active accounts are only those appearing at transaction endpoints"
+  ]
+}

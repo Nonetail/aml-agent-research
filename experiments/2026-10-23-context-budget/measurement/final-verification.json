@@ -1,0 +1,10 @@
+{
+  "baseline_measurements_recounted": 40,
+  "fitted_packets_recounted": 24,
+  "all_saved_packet_hashes_match": true,
+  "all_saved_packets_decode_to_expected_canonical": true,
+  "script_hashes_match": true,
+  "fitted_fixture_hash_matches": true,
+  "all_five_ladder_cutoffs_split_timestamp": true,
+  "all_checks_passed": true
+}

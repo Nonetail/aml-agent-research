@@ -1,0 +1,43 @@
+{
+  "dataset": "HI-Large",
+  "full_file": true,
+  "source_manifest": "../hi-large-download-manifest.json",
+  "transactions": 179702229,
+  "active_accounts": 2116168,
+  "components": 200065,
+  "largest_component": {
+    "component_id": 0,
+    "accounts": 1904340,
+    "transactions": 179166217
+  },
+  "largest_transaction_fraction": 0.9970172211942903,
+  "outside_largest": {
+    "components": 200064,
+    "transactions": 536012,
+    "accounts": 211828,
+    "max_transactions": 297,
+    "max_accounts": 9
+  },
+  "component_counts_by_transaction_band": {
+    "1000000+": 1,
+    "1": 96624,
+    "2-9": 101114,
+    "100-999": 25,
+    "10-99": 2301
+  },
+  "component_counts_by_account_band": {
+    "1000000+": 1,
+    "1": 188537,
+    "2-9": 11527
+  },
+  "validation": {
+    "inventory_unique_ids": true,
+    "inventory_counts_and_sums_match": true,
+    "exact_histograms_match_inventory": true,
+    "independent_newline_count_including_header": 179702230,
+    "independent_newline_count_matches_rows_plus_header": true,
+    "scanner_fixtures_passed": 18,
+    "scanner_matches_independent_python_full_hi_small_component_multiset": true
+  },
+  "inventory_sha256": "1467b3c020a0c924612e043aea44ee6f329ba8766dd4b3da9bcbd931383ee883"
+}

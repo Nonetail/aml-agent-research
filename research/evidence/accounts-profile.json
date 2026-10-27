@@ -1,0 +1,25 @@
+{
+  "rows": 518581,
+  "unique_bank_accounts": 518581,
+  "duplicate_keys": 0,
+  "unique_account_numbers": 518573,
+  "duplicate_account_numbers": 8,
+  "unique_entities": 166207,
+  "entities_with_multiple_accounts": 63518,
+  "entity_name_types": {
+    "Sole Proprietorship": 149048,
+    "Corporation": 172351,
+    "Partnership": 189683,
+    "Country": 6692,
+    "Individual": 740,
+    "Direct": 67
+  },
+  "missing_values": {
+    "Bank Name": 0,
+    "Bank ID": 0,
+    "Account Number": 0,
+    "Entity ID": 0,
+    "Entity Name": 0
+  },
+  "sha256": "786808526e33cfc441212dd6fccda7edfc24172149bed59c6ef59b186836b014"
+}

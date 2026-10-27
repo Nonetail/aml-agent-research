@@ -1,0 +1,225 @@
+{
+  "tokenizer_revision": "bee7596271d1495f6992ae224aefde4410e816b8",
+  "python": "3.12.13",
+  "packages": {
+    "transformers": "5.20.2",
+    "tokenizers": "0.23.3",
+    "jinja2": "3.1.6"
+  },
+  "source_sha256": "b19d39f515523373f991b689c07e11e7b0b95c17a2c27a87d91584ae16c5b040",
+  "sampling": "First 10000 external edges by original row ordinal; full ten-day source scope; no labels read.",
+  "sample_rows": 10000,
+  "row_identifiers_sha256": "bc8a980b65025677823c3cb667d38c56500928c2e02afabd38bf2564c49e38db",
+  "system_tokens": {
+    "reviewer": 990,
+    "navigator": 719
+  },
+  "measurements": [
+    {
+      "serialization": "raw_json",
+      "rows": 0,
+      "prompt_tokens": 1791,
+      "fixed_request_tokens": 1791,
+      "row_increment_tokens": 0,
+      "user_content_bytes": 221,
+      "with_output_4096_and_safety_4096": 9983
+    },
+    {
+      "serialization": "raw_json",
+      "rows": 500,
+      "prompt_tokens": 99366,
+      "fixed_request_tokens": 1791,
+      "row_increment_tokens": 97575,
+      "user_content_bytes": 211914,
+      "with_output_4096_and_safety_4096": 107558
+    },
+    {
+      "serialization": "raw_json",
+      "rows": 1000,
+      "prompt_tokens": 197959,
+      "fixed_request_tokens": 1791,
+      "row_increment_tokens": 196168,
+      "user_content_bytes": 424568,
+      "with_output_4096_and_safety_4096": 206151
+    },
+    {
+      "serialization": "raw_json",
+      "rows": 1500,
+      "prompt_tokens": 297292,
+      "fixed_request_tokens": 1791,
+      "row_increment_tokens": 295501,
+      "user_content_bytes": 637823,
+      "with_output_4096_and_safety_4096": 305484
+    },
+    {
+      "serialization": "raw_json",
+      "rows": 2000,
+      "prompt_tokens": 397152,
+      "fixed_request_tokens": 1791,
+      "row_increment_tokens": 395361,
+      "user_content_bytes": 851788,
+      "with_output_4096_and_safety_4096": 405344
+    },
+    {
+      "serialization": "raw_json",
+      "rows": 3000,
+      "prompt_tokens": 597803,
+      "fixed_request_tokens": 1791,
+      "row_increment_tokens": 596012,
+      "user_content_bytes": 1280845,
+      "with_output_4096_and_safety_4096": 605995
+    },
+    {
+      "serialization": "raw_json",
+      "rows": 4000,
+      "prompt_tokens": 799847,
+      "fixed_request_tokens": 1791,
+      "row_increment_tokens": 798056,
+      "user_content_bytes": 1710923,
+      "with_output_4096_and_safety_4096": 808039
+    },
+    {
+      "serialization": "raw_json",
+      "rows": 5000,
+      "prompt_tokens": 1002022,
+      "fixed_request_tokens": 1791,
+      "row_increment_tokens": 1000231,
+      "user_content_bytes": 2141229,
+      "with_output_4096_and_safety_4096": 1010214
+    },
+    {
+      "serialization": "compact_csv",
+      "rows": 0,
+      "prompt_tokens": 1819,
+      "fixed_request_tokens": 1819,
+      "row_increment_tokens": 0,
+      "user_content_bytes": 315,
+      "with_output_4096_and_safety_4096": 10011
+    },
+    {
+      "serialization": "compact_csv",
+      "rows": 500,
+      "prompt_tokens": 38785,
+      "fixed_request_tokens": 1819,
+      "row_increment_tokens": 36966,
+      "user_content_bytes": 47400,
+      "with_output_4096_and_safety_4096": 46977
+    },
+    {
+      "serialization": "compact_csv",
+      "rows": 1000,
+      "prompt_tokens": 76469,
+      "fixed_request_tokens": 1819,
+      "row_increment_tokens": 74650,
+      "user_content_bytes": 95145,
+      "with_output_4096_and_safety_4096": 84661
+    },
+    {
+      "serialization": "compact_csv",
+      "rows": 1500,
+      "prompt_tokens": 114514,
+      "fixed_request_tokens": 1819,
+      "row_increment_tokens": 112695,
+      "user_content_bytes": 143112,
+      "with_output_4096_and_safety_4096": 122706
+    },
+    {
+      "serialization": "compact_csv",
+      "rows": 2000,
+      "prompt_tokens": 152815,
+      "fixed_request_tokens": 1819,
+      "row_increment_tokens": 150996,
+      "user_content_bytes": 191518,
+      "with_output_4096_and_safety_4096": 161007
+    },
+    {
+      "serialization": "compact_csv",
+      "rows": 3000,
+      "prompt_tokens": 229879,
+      "fixed_request_tokens": 1819,
+      "row_increment_tokens": 228060,
+      "user_content_bytes": 288988,
+      "with_output_4096_and_safety_4096": 238071
+    },
+    {
+      "serialization": "compact_csv",
+      "rows": 4000,
+      "prompt_tokens": 308095,
+      "fixed_request_tokens": 1819,
+      "row_increment_tokens": 306276,
+      "user_content_bytes": 387238,
+      "with_output_4096_and_safety_4096": 316287
+    },
+    {
+      "serialization": "compact_csv",
+      "rows": 5000,
+      "prompt_tokens": 386296,
+      "fixed_request_tokens": 1819,
+      "row_increment_tokens": 384477,
+      "user_content_bytes": 485570,
+      "with_output_4096_and_safety_4096": 394488
+    }
+  ],
+  "fits": [
+    {
+      "serialization": "raw_json",
+      "total_cap": 120000,
+      "output_reserve": 4096,
+      "safety_reserve": 4096,
+      "rows": 563,
+      "prompt_tokens": 111803,
+      "next_prefix_prompt_tokens": 112001,
+      "boundary_verified": true
+    },
+    {
+      "serialization": "raw_json",
+      "total_cap": 200000,
+      "output_reserve": 4096,
+      "safety_reserve": 4096,
+      "rows": 968,
+      "prompt_tokens": 191627,
+      "next_prefix_prompt_tokens": 191824,
+      "boundary_verified": true
+    },
+    {
+      "serialization": "raw_json",
+      "total_cap": 262144,
+      "output_reserve": 4096,
+      "safety_reserve": 4096,
+      "rows": 1281,
+      "prompt_tokens": 253766,
+      "next_prefix_prompt_tokens": 253960,
+      "boundary_verified": true
+    },
+    {
+      "serialization": "compact_csv",
+      "total_cap": 120000,
+      "output_reserve": 4096,
+      "safety_reserve": 4096,
+      "rows": 1463,
+      "prompt_tokens": 111747,
+      "next_prefix_prompt_tokens": 111827,
+      "boundary_verified": true
+    },
+    {
+      "serialization": "compact_csv",
+      "total_cap": 200000,
+      "output_reserve": 4096,
+      "safety_reserve": 4096,
+      "rows": 2510,
+      "prompt_tokens": 191801,
+      "next_prefix_prompt_tokens": 191875,
+      "boundary_verified": true
+    },
+    {
+      "serialization": "compact_csv",
+      "total_cap": 262144,
+      "output_reserve": 4096,
+      "safety_reserve": 4096,
+      "rows": 3307,
+      "prompt_tokens": 253887,
+      "next_prefix_prompt_tokens": 253963,
+      "boundary_verified": true
+    }
+  ]
+}

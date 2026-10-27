@@ -1,0 +1,10 @@
+{
+  "source_url": "https://www.kaggle.com/api/v1/datasets/download/ealtman2019/ibm-transactions-for-anti-money-laundering-aml/HI-Large_Trans.csv",
+  "publisher_version": 8,
+  "filename": "HI-Large_Trans.csv",
+  "bytes": 17052760651,
+  "sha256": "d13635e297c64673826217631fb88d635c4f506052e1bde833895eda2a65c3f2",
+  "download_seconds": 362.308,
+  "range_count": 509,
+  "validation": "Every byte range returned expected Content-Range and byte count; complete CSV header checked."
+}

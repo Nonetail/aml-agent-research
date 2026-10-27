@@ -1,0 +1,336 @@
+{
+  "purpose": "Evaluator-only development references. Never send these answers or pattern memberships to runtime models.",
+  "source_sha256": "b19d39f515523373f991b689c07e11e7b0b95c17a2c27a87d91584ae16c5b040",
+  "pattern_sha256": "2c546b5ce6009e73851f0139af053cf845f08bf92f3bc82fe1eb937dec2ef39b",
+  "navigation_cases": [
+    {
+      "id": "case-1",
+      "description": "Publisher 3-edge cycle; development selection uses reference labels",
+      "seed_id": 2180320,
+      "target_ids": [
+        "T2180320",
+        "T2180322",
+        "T2180323"
+      ],
+      "pattern_index": 126,
+      "kind": "reference"
+    },
+    {
+      "id": "case-2",
+      "description": "Publisher 7-edge cycle; development selection uses reference labels",
+      "seed_id": 3182150,
+      "target_ids": [
+        "T3182150",
+        "T3182152",
+        "T3182154",
+        "T3182156",
+        "T3182158",
+        "T3182160",
+        "T3182162"
+      ],
+      "pattern_index": 219,
+      "kind": "reference"
+    },
+    {
+      "id": "case-3",
+      "description": "Label-zero seed with no later external destination outflow in scope; not an all-benign neighborhood",
+      "seed_id": 853274,
+      "target_ids": [],
+      "kind": "ordinary"
+    },
+    {
+      "id": "case-4",
+      "description": "Label-free maximum-outgoing-degree account (112066 reporting-period rows)",
+      "seed_id": 2077703,
+      "target_ids": [],
+      "kind": "hub"
+    }
+  ],
+  "context_expected": {
+    "case-1": [
+      "T2180320",
+      "T2180322",
+      "T2180323"
+    ],
+    "case-2": [
+      "T3182150",
+      "T3182152",
+      "T3182154"
+    ],
+    "case-3": [
+      "T853274"
+    ],
+    "case-4": [
+      "T2077703"
+    ]
+  },
+  "reference_sweep_cases": [
+    {
+      "id": "cycle-126",
+      "description": "BEGIN LAUNDERING ATTEMPT - CYCLE:  Max 3 hops",
+      "family": "CYCLE",
+      "pattern_index": 126,
+      "seed_id": 2180320,
+      "target_ids": [
+        "T2180320",
+        "T2180322",
+        "T2180323"
+      ]
+    },
+    {
+      "id": "cycle-128",
+      "description": "BEGIN LAUNDERING ATTEMPT - CYCLE:  Max 7 hops",
+      "family": "CYCLE",
+      "pattern_index": 128,
+      "seed_id": 2192348,
+      "target_ids": [
+        "T2192348",
+        "T2192354",
+        "T2192358",
+        "T2192352",
+        "T2192361",
+        "T2192350",
+        "T2192356"
+      ]
+    },
+    {
+      "id": "cycle-130",
+      "description": "BEGIN LAUNDERING ATTEMPT - CYCLE:  Max 11 hops",
+      "family": "CYCLE",
+      "pattern_index": 130,
+      "seed_id": 2204225,
+      "target_ids": [
+        "T2204225",
+        "T2204227",
+        "T2204229",
+        "T2204230",
+        "T2204233",
+        "T2204236",
+        "T2204238",
+        "T2204241",
+        "T2204244",
+        "T2204246",
+        "T2204248"
+      ]
+    },
+    {
+      "id": "cycle-137",
+      "description": "BEGIN LAUNDERING ATTEMPT - CYCLE:  Max 11 hops",
+      "family": "CYCLE",
+      "pattern_index": 137,
+      "seed_id": 2236764,
+      "target_ids": [
+        "T2236764",
+        "T2236766",
+        "T2236768",
+        "T2236769",
+        "T2236771",
+        "T2236772",
+        "T2236773",
+        "T2236774",
+        "T2236776",
+        "T2236778",
+        "T2236781"
+      ]
+    },
+    {
+      "id": "random-122",
+      "description": "BEGIN LAUNDERING ATTEMPT - RANDOM:  Max 11 hops",
+      "family": "RANDOM",
+      "pattern_index": 122,
+      "seed_id": 2150319,
+      "target_ids": [
+        "T2150319",
+        "T2150320",
+        "T2150321",
+        "T2150322",
+        "T2150323",
+        "T2150325",
+        "T2150326",
+        "T2150328",
+        "T2150330",
+        "T2150331",
+        "T2150332"
+      ]
+    },
+    {
+      "id": "random-152",
+      "description": "BEGIN LAUNDERING ATTEMPT - RANDOM:  Max 10 hops",
+      "family": "RANDOM",
+      "pattern_index": 152,
+      "seed_id": 2358600,
+      "target_ids": [
+        "T2358600",
+        "T2358603",
+        "T2358606",
+        "T2358609",
+        "T2358612",
+        "T2358614",
+        "T2358616",
+        "T2358619",
+        "T2358620",
+        "T2358622"
+      ]
+    },
+    {
+      "id": "random-163",
+      "description": "BEGIN LAUNDERING ATTEMPT - RANDOM:  Max 7 hops",
+      "family": "RANDOM",
+      "pattern_index": 163,
+      "seed_id": 2485811,
+      "target_ids": [
+        "T2485811",
+        "T2485812",
+        "T2485814",
+        "T2485817",
+        "T2485820",
+        "T2485822",
+        "T2485824"
+      ]
+    },
+    {
+      "id": "random-178",
+      "description": "BEGIN LAUNDERING ATTEMPT - RANDOM:  Max 8 hops",
+      "family": "RANDOM",
+      "pattern_index": 178,
+      "seed_id": 2689575,
+      "target_ids": [
+        "T2689575",
+        "T2689576",
+        "T2689577",
+        "T2689578",
+        "T2689579",
+        "T2689582",
+        "T2689583",
+        "T2689585"
+      ]
+    },
+    {
+      "id": "fan-in-114",
+      "description": "BEGIN LAUNDERING ATTEMPT - FAN-IN:  Max 10-degree Fan-In",
+      "family": "FAN-IN",
+      "pattern_index": 114,
+      "seed_id": 2095610,
+      "target_ids": [
+        "T2095610",
+        "T2095612",
+        "T2095614",
+        "T2095616",
+        "T2095617",
+        "T2095619",
+        "T2095621",
+        "T2095623",
+        "T2095624",
+        "T2095626"
+      ]
+    },
+    {
+      "id": "fan-in-120",
+      "description": "BEGIN LAUNDERING ATTEMPT - FAN-IN:  Max 3-degree Fan-In",
+      "family": "FAN-IN",
+      "pattern_index": 120,
+      "seed_id": 2136586,
+      "target_ids": [
+        "T2136586",
+        "T2136588",
+        "T2136590"
+      ]
+    },
+    {
+      "id": "fan-in-125",
+      "description": "BEGIN LAUNDERING ATTEMPT - FAN-IN:  Max 12-degree Fan-In",
+      "family": "FAN-IN",
+      "pattern_index": 125,
+      "seed_id": 2176387,
+      "target_ids": [
+        "T2176387",
+        "T2176389",
+        "T2176391",
+        "T2176393",
+        "T2176395",
+        "T2176397",
+        "T2176399",
+        "T2176400",
+        "T2176401",
+        "T2176403",
+        "T2176405",
+        "T2176407"
+      ]
+    },
+    {
+      "id": "fan-in-129",
+      "description": "BEGIN LAUNDERING ATTEMPT - FAN-IN:  Max 3-degree Fan-In",
+      "family": "FAN-IN",
+      "pattern_index": 129,
+      "seed_id": 2196201,
+      "target_ids": [
+        "T2196201",
+        "T2196202",
+        "T2196203"
+      ]
+    },
+    {
+      "id": "fan-out-116",
+      "description": "BEGIN LAUNDERING ATTEMPT - FAN-OUT:  Max 7-degree Fan-Out",
+      "family": "FAN-OUT",
+      "pattern_index": 116,
+      "seed_id": 2120421,
+      "target_ids": [
+        "T2120421",
+        "T2120423",
+        "T2120425",
+        "T2120427",
+        "T2120429",
+        "T2120431",
+        "T2120433"
+      ]
+    },
+    {
+      "id": "fan-out-117",
+      "description": "BEGIN LAUNDERING ATTEMPT - FAN-OUT:  Max 7-degree Fan-Out",
+      "family": "FAN-OUT",
+      "pattern_index": 117,
+      "seed_id": 2128531,
+      "target_ids": [
+        "T2128531",
+        "T2128533",
+        "T2128535",
+        "T2128537",
+        "T2128539",
+        "T2128540",
+        "T2128542"
+      ]
+    },
+    {
+      "id": "fan-out-123",
+      "description": "BEGIN LAUNDERING ATTEMPT - FAN-OUT:  Max 4-degree Fan-Out",
+      "family": "FAN-OUT",
+      "pattern_index": 123,
+      "seed_id": 2160247,
+      "target_ids": [
+        "T2160247",
+        "T2160248",
+        "T2160250",
+        "T2160252"
+      ]
+    },
+    {
+      "id": "fan-out-136",
+      "description": "BEGIN LAUNDERING ATTEMPT - FAN-OUT:  Max 9-degree Fan-Out",
+      "family": "FAN-OUT",
+      "pattern_index": 136,
+      "seed_id": 2234562,
+      "target_ids": [
+        "T2234562",
+        "T2234563",
+        "T2234565",
+        "T2234567",
+        "T2234569",
+        "T2234571",
+        "T2234573",
+        "T2234575",
+        "T2234577"
+      ]
+    }
+  ]
+}

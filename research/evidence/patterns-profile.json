@@ -1,0 +1,17 @@
+{
+  "groups": 370,
+  "types": {
+    "FAN-OUT": 48,
+    "CYCLE": 54,
+    "GATHER-SCATTER": 51,
+    "STACK": 43,
+    "RANDOM": 41,
+    "BIPARTITE": 49,
+    "FAN-IN": 40,
+    "SCATTER-GATHER": 44
+  },
+  "rows": 3209,
+  "minimum_timestamp": "2022/09/01 00:03",
+  "maximum_timestamp": "2022/09/18 16:18",
+  "sha256": "2c546b5ce6009e73851f0139af053cf845f08bf92f3bc82fe1eb937dec2ef39b"
+}

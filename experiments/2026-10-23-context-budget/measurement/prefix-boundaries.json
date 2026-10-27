@@ -1,0 +1,36 @@
+{
+  "source_sha256": "b19d39f515523373f991b689c07e11e7b0b95c17a2c27a87d91584ae16c5b040",
+  "complete_incident_query_count": 169756,
+  "boundaries": [
+    {
+      "prefix_transactions": 500,
+      "last_selected_timestamp": "2022/09/01 00:06",
+      "next_incident_timestamp": "2022/09/01 00:06",
+      "cutoff_splits_timestamp": true
+    },
+    {
+      "prefix_transactions": 1000,
+      "last_selected_timestamp": "2022/09/01 00:12",
+      "next_incident_timestamp": "2022/09/01 00:12",
+      "cutoff_splits_timestamp": true
+    },
+    {
+      "prefix_transactions": 2000,
+      "last_selected_timestamp": "2022/09/01 00:25",
+      "next_incident_timestamp": "2022/09/01 00:25",
+      "cutoff_splits_timestamp": true
+    },
+    {
+      "prefix_transactions": 3000,
+      "last_selected_timestamp": "2022/09/01 01:11",
+      "next_incident_timestamp": "2022/09/01 01:11",
+      "cutoff_splits_timestamp": true
+    },
+    {
+      "prefix_transactions": 5000,
+      "last_selected_timestamp": "2022/09/01 03:23",
+      "next_incident_timestamp": "2022/09/01 03:23",
+      "cutoff_splits_timestamp": true
+    }
+  ]
+}

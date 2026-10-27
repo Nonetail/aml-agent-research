@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "fixture_cases": 18,
+  "runtime_seconds": 0.12412150000000001,
+  "facts": [
+    {
+      "fixture": "fixture",
+      "passed": true,
+      "checks": "self rows; duplicate/parallel/reversed rows; bridge merge; disconnected components; normalized decimal banks including zero; exact account case and whitespace; same account at different banks; source-first stable IDs; unsorted timestamp extrema; exact histograms; inventory totals"
+    },
+    {
+      "fixture": "labels-ignored",
+      "passed": true
+    },
+    {
+      "fixture": "header-only",
+      "passed": true
+    },
+    {
+      "fixture": "bom-crlf",
+      "passed": true
+    },
+    {
+      "fixture": "size-wins-over-first",
+      "passed": true,
+      "checks": "stable representative survives union-by-size changing the root"
+    },
+    {
+      "fixture": "large-bank-id",
+      "passed": true,
+      "checks": "bank normalization never converts to a bounded integer"
+    },
+    {
+      "fixture": "bad-header",
+      "rejected": true,
+      "diagnostic": "error at input line 1: unexpected CSV header"
+    },
+    {
+      "fixture": "missing-field",
+      "rejected": true,
+      "diagnostic": "error at input line 2: expected exactly 11 CSV fields"
+    },
+    {
+      "fixture": "extra-field",
+      "rejected": true,
+      "diagnostic": "error at input line 2: expected exactly 11 CSV fields"
+    },
+    {
+      "fixture": "quote",
+      "rejected": true,
+      "diagnostic": "error at input line 2: quoted CSV is unsupported"
+    },
+    {
+      "fixture": "invalid-bank-10",
+      "rejected": true,
+      "diagnostic": "error at input line 2: bank must be a nonempty unsigned decimal string"
+    },
+    {
+      "fixture": "invalid-bank-11",
+      "rejected": true,
+      "diagnostic": "error at input line 2: bank must be a nonempty unsigned decimal string"
+    },
+    {
+      "fixture": "invalid-bank-12",
+      "rejected": true,
+      "diagnostic": "error at input line 2: bank must be a nonempty unsigned decimal string"
+    },
+    {
+      "fixture": "invalid-bank-13",
+      "rejected": true,
+      "diagnostic": "error at input line 2: bank must be a nonempty unsigned decimal string"
+    },
+    {
+      "fixture": "invalid-bank-14",
+      "rejected": true,
+      "diagnostic": "error at input line 2: bank must be a nonempty unsigned decimal string"
+    },
+    {
+      "fixture": "empty-account",
+      "rejected": true,
+      "diagnostic": "error at input line 2: account must not be empty"
+    },
+    {
+      "fixture": "bad-timestamp",
+      "rejected": true,
+      "diagnostic": "error at input line 2: expected timestamp YYYY/MM/DD HH:MM"
+    },
+    {
+      "fixture": "blank-row",
+      "rejected": true,
+      "diagnostic": "error at input line 2: expected exactly 11 CSV fields"
+    }
+  ]
+}

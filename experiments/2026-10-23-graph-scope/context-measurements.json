@@ -1,0 +1,104 @@
+{
+  "tiktoken_version": "0.14.0",
+  "scope": "Exact saved-text counts under named reference encodings. The actual agent model tokenizer, total input, tool overhead, reasoning and output usage were not captured. These are not provider billing counts.",
+  "common_prompt": {
+    "utf8_bytes": 3936,
+    "characters": 3936,
+    "whitespace_words": 505,
+    "sha256": "faea9ee3106689ba81c637fcaab1d7e81c201a211af78989b4a82ea395f684ef",
+    "reference_tokens": {
+      "o200k_base": 745,
+      "cl100k_base": 747
+    }
+  },
+  "cases": {
+    "case-c193": {
+      "transactions": 76,
+      "accounts": 21,
+      "markdown_packet": {
+        "utf8_bytes": 8686,
+        "characters": 8686,
+        "whitespace_words": 1990,
+        "sha256": "bfe31e54bcae4c63fb53ffc458854877acbbc37af8391e293af4bf6dbe53aa89",
+        "reference_tokens": {
+          "o200k_base": 3713,
+          "cl100k_base": 3732
+        }
+      },
+      "json_packet": {
+        "utf8_bytes": 24530,
+        "characters": 24530,
+        "whitespace_words": 2029,
+        "sha256": "21593fb67e13abc33564b410de806efb36e284f9a1e1d45e05fbcf0d4b2a3fc7",
+        "reference_tokens": {
+          "o200k_base": 7955,
+          "cl100k_base": 7992
+        }
+      },
+      "submitted_request_text": {
+        "utf8_bytes": 12629,
+        "characters": 12629,
+        "whitespace_words": 2496,
+        "sha256": "7684622135b75b364ac462aab4e82246df7bccbed7e846eeaae02ef3cbc73a0d",
+        "reference_tokens": {
+          "o200k_base": 4459,
+          "cl100k_base": 4480
+        }
+      },
+      "saved_response_json": {
+        "utf8_bytes": 4811,
+        "characters": 4793,
+        "whitespace_words": 594,
+        "sha256": "c397cbf083e3145b9372ee49588f70890d437444e0c635cc3db8110a245da593",
+        "reference_tokens": {
+          "o200k_base": 1313,
+          "cl100k_base": 1313
+        }
+      }
+    },
+    "case-7b4e": {
+      "transactions": 97,
+      "accounts": 21,
+      "markdown_packet": {
+        "utf8_bytes": 10859,
+        "characters": 10859,
+        "whitespace_words": 2550,
+        "sha256": "1224b999f7f8a5d7f869b82a2c213db8b310356313d1eef3b55305b1f23ef466",
+        "reference_tokens": {
+          "o200k_base": 4630,
+          "cl100k_base": 4654
+        }
+      },
+      "json_packet": {
+        "utf8_bytes": 30546,
+        "characters": 30546,
+        "whitespace_words": 2610,
+        "sha256": "0cd012adf5fa8aa7cc8255d2a5bc3253936619fe68be0b4200db4af4bdd12d21",
+        "reference_tokens": {
+          "o200k_base": 9887,
+          "cl100k_base": 9932
+        }
+      },
+      "submitted_request_text": {
+        "utf8_bytes": 14802,
+        "characters": 14802,
+        "whitespace_words": 3056,
+        "sha256": "4100f45386e5c7025f5fef0fff89d476dd880f37a85bfed905efde68dc1d41d2",
+        "reference_tokens": {
+          "o200k_base": 5376,
+          "cl100k_base": 5402
+        }
+      },
+      "saved_response_json": {
+        "utf8_bytes": 5088,
+        "characters": 5086,
+        "whitespace_words": 653,
+        "sha256": "a21b1fdcb344a3a1671f4d437a6fdb4e9b8d191048869962ddc86ac3d3b97f13",
+        "reference_tokens": {
+          "o200k_base": 1345,
+          "cl100k_base": 1341
+        }
+      }
+    }
+  }
+}

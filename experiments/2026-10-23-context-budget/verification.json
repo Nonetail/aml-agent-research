@@ -1,0 +1,18 @@
+{
+  "report_local_links_valid": true,
+  "measurement_script_hash_matches_recorded_run": true,
+  "fitter_hash_matches": true,
+  "fitted_packets_and_boundaries_verified": 24,
+  "ladder_packets": 20,
+  "source_recheck": {
+    "selected_source_rows_reread": 5000,
+    "exact_source_field_checks_passed": true,
+    "all_round_trips_equal_canonical": true,
+    "round_trip_packets": 20,
+    "no_label_or_pattern_file_used_for_selection": true,
+    "source_ordinal_coverage_unique": true
+  },
+  "prior_frozen_probe_files_unchanged": 10,
+  "inference_calls": 0,
+  "ladder_format_encoding_measurements": 40
+}

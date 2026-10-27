@@ -1,0 +1,244 @@
+[
+  {
+    "name": "fetch_transactions",
+    "description": "Retrieve one bounded account/time/direction page; preserve next_cursor and completeness.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "bank": {
+          "type": "string",
+          "description": "Bank ID as a string; leading zeros are normalized"
+        },
+        "account": {
+          "type": "string",
+          "description": "Exact account number string"
+        },
+        "start": {
+          "type": "string",
+          "description": "Inclusive source time YYYY/MM/DD HH:MM"
+        },
+        "end": {
+          "type": "string",
+          "description": "Exclusive source time YYYY/MM/DD HH:MM"
+        },
+        "direction": {
+          "type": "string",
+          "enum": [
+            "incoming",
+            "outgoing"
+          ]
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 500,
+          "default": 100
+        },
+        "cursor": {
+          "type": "string",
+          "description": "Continuation cursor returned by the identical query"
+        }
+      },
+      "required": [
+        "bank",
+        "account",
+        "start",
+        "end",
+        "direction"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "get_transactions",
+    "description": "Fetch exact transactions within the authorized run scope.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "transaction_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Source SHA256:original row ordinal"
+          },
+          "minItems": 1,
+          "maxItems": 500
+        }
+      },
+      "required": [
+        "transaction_ids"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "get_accounts",
+    "description": "Get recorded synthetic entity metadata, not verified ownership.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "accounts": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 100,
+          "items": {
+            "type": "object",
+            "properties": {
+              "bank": {
+                "type": "string",
+                "description": "Bank ID as a string; leading zeros are normalized"
+              },
+              "account": {
+                "type": "string",
+                "description": "Exact account number string"
+              }
+            },
+            "required": [
+              "bank",
+              "account"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "accounts"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "expand_frontier",
+    "description": "Fetch independent branches; combined requested page limits must not exceed 500.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "queries": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "properties": {
+              "bank": {
+                "type": "string",
+                "description": "Bank ID as a string; leading zeros are normalized"
+              },
+              "account": {
+                "type": "string",
+                "description": "Exact account number string"
+              },
+              "start": {
+                "type": "string",
+                "description": "Inclusive source time YYYY/MM/DD HH:MM"
+              },
+              "end": {
+                "type": "string",
+                "description": "Exclusive source time YYYY/MM/DD HH:MM"
+              },
+              "direction": {
+                "type": "string",
+                "enum": [
+                  "incoming",
+                  "outgoing"
+                ]
+              },
+              "limit": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 500,
+                "default": 100
+              },
+              "cursor": {
+                "type": "string",
+                "description": "Continuation cursor returned by the identical query"
+              }
+            },
+            "required": [
+              "bank",
+              "account",
+              "start",
+              "end",
+              "direction"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "queries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "summarize_activity",
+    "description": "Summarize at most 10000 rows; partial totals cannot establish whole-scope claims.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "bank": {
+          "type": "string",
+          "description": "Bank ID as a string; leading zeros are normalized"
+        },
+        "account": {
+          "type": "string",
+          "description": "Exact account number string"
+        },
+        "start": {
+          "type": "string",
+          "description": "Inclusive source time YYYY/MM/DD HH:MM"
+        },
+        "end": {
+          "type": "string",
+          "description": "Exclusive source time YYYY/MM/DD HH:MM"
+        },
+        "direction": {
+          "type": "string",
+          "enum": [
+            "incoming",
+            "outgoing"
+          ]
+        }
+      },
+      "required": [
+        "bank",
+        "account",
+        "start",
+        "end",
+        "direction"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "verify_path",
+    "description": "Check connectivity/time/optional closure, not laundering or conservation of funds.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "transaction_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Source SHA256:original row ordinal"
+          },
+          "minItems": 2,
+          "maxItems": 100
+        },
+        "strict": {
+          "type": "boolean",
+          "default": true
+        },
+        "cycle": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "transaction_ids"
+      ],
+      "additionalProperties": false
+    }
+  }
+]

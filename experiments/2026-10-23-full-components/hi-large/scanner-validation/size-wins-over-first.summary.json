@@ -1,0 +1,15 @@
+{
+  "input": "/Users/notail.wang/Obsidian/n0tail/AML Agent Research/experiments/2026-10-23-full-components/hi-large/scanner-validation/size-wins-over-first.csv",
+  "transactions": 3,
+  "accounts": 3,
+  "components": 1,
+  "self_rows": 1,
+  "min_timestamp": "2022/09/01 00:00",
+  "max_timestamp": "2022/09/01 00:00",
+  "scan_seconds": 0.002763709,
+  "component_id_definition": "Smallest zero-based source-first appearance node ordinal in each component",
+  "totals_verified": true,
+  "largest_components_by_transactions": [{"component_id":0,"representative_bank":"1","representative_account":"first","accounts":3,"transactions":3}],
+  "component_account_size_histogram": [{"size":3,"components":1}],
+  "component_transaction_size_histogram": [{"size":3,"components":1}]
+}

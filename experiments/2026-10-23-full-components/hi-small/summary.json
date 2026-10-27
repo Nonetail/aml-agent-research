@@ -1,0 +1,306 @@
+{
+  "dataset": "IBM HI-Small, complete pinned local transaction file",
+  "definition": "Weak connected components of observed accounts. Ignore transaction direction for connectivity; count every transaction row, including self-transfers and duplicates. No time filter, hop limit, label filter, entity ownership edges, or inactive metadata accounts.",
+  "account_identity": "(bank ID with leading zeroes removed, unchanged account number); all-zero bank IDs normalize to 0",
+  "component_id": "HI-Small-C followed by the zero-padded 1-based minimum account metadata row number in the component, excluding the header; deterministic for these hashed input files and independent of union root or transaction order",
+  "inventory_order": "Increasing representative_metadata_row_1based",
+  "ranking_tiebreaks": "Rows ranking: rows descending, accounts descending, representative row ascending. Accounts ranking: accounts descending, rows descending, representative row ascending.",
+  "source_sha256": {
+    "HI-Small_Trans.csv": "b19d39f515523373f991b689c07e11e7b0b95c17a2c27a87d91584ae16c5b040",
+    "HI-Small_accounts.csv": "786808526e33cfc441212dd6fccda7edfc24172149bed59c6ef59b186836b014"
+  },
+  "totals": {
+    "transaction_rows": 5078345,
+    "active_accounts": 515088,
+    "components": 114139,
+    "largest_component_transaction_rows": 4874569
+  },
+  "metadata_accounts": 518581,
+  "inactive_metadata_accounts_excluded": 3493,
+  "self_transaction_rows_included": 591212,
+  "account_size_distribution": {
+    "exact_size_to_component_count": {
+      "1": 92354,
+      "2": 16736,
+      "3": 3757,
+      "4": 878,
+      "5": 251,
+      "6": 91,
+      "7": 38,
+      "8": 16,
+      "9": 7,
+      "10": 4,
+      "11": 3,
+      "12": 1,
+      "23": 1,
+      "24": 1,
+      "372089": 1
+    },
+    "size_band_to_component_count": {
+      "1": 92354,
+      "2-9": 21774,
+      "10-99": 10,
+      "100-999": 0,
+      "1000-9999": 0,
+      "10000-99999": 0,
+      "100000-999999": 1,
+      "1000000+": 0
+    }
+  },
+  "transaction_row_size_distribution": {
+    "exact_size_to_component_count": {
+      "1": 73888,
+      "2": 22153,
+      "3": 7579,
+      "4": 5548,
+      "5": 1667,
+      "6": 1250,
+      "7": 693,
+      "8": 299,
+      "9": 152,
+      "10": 246,
+      "11": 91,
+      "12": 50,
+      "13": 29,
+      "14": 28,
+      "15": 34,
+      "16": 40,
+      "17": 53,
+      "18": 25,
+      "19": 21,
+      "20": 16,
+      "21": 20,
+      "22": 32,
+      "23": 36,
+      "24": 24,
+      "25": 24,
+      "26": 14,
+      "27": 9,
+      "28": 6,
+      "29": 7,
+      "30": 8,
+      "31": 9,
+      "32": 12,
+      "33": 13,
+      "34": 9,
+      "35": 4,
+      "36": 5,
+      "37": 5,
+      "38": 2,
+      "39": 4,
+      "40": 3,
+      "41": 4,
+      "42": 3,
+      "43": 3,
+      "44": 1,
+      "45": 1,
+      "46": 1,
+      "47": 1,
+      "49": 3,
+      "50": 1,
+      "51": 1,
+      "52": 1,
+      "53": 1,
+      "56": 2,
+      "58": 1,
+      "60": 1,
+      "62": 2,
+      "66": 1,
+      "87": 1,
+      "95": 1,
+      "4874569": 1
+    },
+    "size_band_to_component_count": {
+      "1": 73888,
+      "2-9": 39341,
+      "10-99": 909,
+      "100-999": 0,
+      "1000-9999": 0,
+      "10000-99999": 0,
+      "100000-999999": 0,
+      "1000000+": 1
+    }
+  },
+  "largest_components_by_transaction_rows": [
+    {
+      "component_id": "HI-Small-C000000001",
+      "representative_metadata_row_1based": 1,
+      "representative_bank_id": "331579",
+      "representative_account_number": "80B779D80",
+      "account_count": 372089,
+      "transaction_row_count": 4874569
+    },
+    {
+      "component_id": "HI-Small-C000068962",
+      "representative_metadata_row_1based": 68962,
+      "representative_bank_id": "17401",
+      "representative_account_number": "806A0ECC0",
+      "account_count": 7,
+      "transaction_row_count": 95
+    },
+    {
+      "component_id": "HI-Small-C000143842",
+      "representative_metadata_row_1based": 143842,
+      "representative_bank_id": "39242",
+      "representative_account_number": "80F5E9230",
+      "account_count": 23,
+      "transaction_row_count": 87
+    },
+    {
+      "component_id": "HI-Small-C000079581",
+      "representative_metadata_row_1based": 79581,
+      "representative_bank_id": "317038",
+      "representative_account_number": "8065A0D60",
+      "account_count": 7,
+      "transaction_row_count": 66
+    },
+    {
+      "component_id": "HI-Small-C000071481",
+      "representative_metadata_row_1based": 71481,
+      "representative_bank_id": "23344",
+      "representative_account_number": "809FC8270",
+      "account_count": 5,
+      "transaction_row_count": 62
+    },
+    {
+      "component_id": "HI-Small-C000313376",
+      "representative_metadata_row_1based": 313376,
+      "representative_bank_id": "113685",
+      "representative_account_number": "80B8AD940",
+      "account_count": 2,
+      "transaction_row_count": 62
+    },
+    {
+      "component_id": "HI-Small-C000005664",
+      "representative_metadata_row_1based": 5664,
+      "representative_bank_id": "22164",
+      "representative_account_number": "80D1B5C70",
+      "account_count": 4,
+      "transaction_row_count": 60
+    },
+    {
+      "component_id": "HI-Small-C000083037",
+      "representative_metadata_row_1based": 83037,
+      "representative_bank_id": "28255",
+      "representative_account_number": "813AE6820",
+      "account_count": 5,
+      "transaction_row_count": 58
+    },
+    {
+      "component_id": "HI-Small-C000127345",
+      "representative_metadata_row_1based": 127345,
+      "representative_bank_id": "3149",
+      "representative_account_number": "80177D040",
+      "account_count": 4,
+      "transaction_row_count": 56
+    },
+    {
+      "component_id": "HI-Small-C000139875",
+      "representative_metadata_row_1based": 139875,
+      "representative_bank_id": "339659",
+      "representative_account_number": "80E8542E0",
+      "account_count": 3,
+      "transaction_row_count": 56
+    }
+  ],
+  "largest_components_by_accounts": [
+    {
+      "component_id": "HI-Small-C000000001",
+      "representative_metadata_row_1based": 1,
+      "representative_bank_id": "331579",
+      "representative_account_number": "80B779D80",
+      "account_count": 372089,
+      "transaction_row_count": 4874569
+    },
+    {
+      "component_id": "HI-Small-C000009865",
+      "representative_metadata_row_1based": 9865,
+      "representative_bank_id": "32297",
+      "representative_account_number": "812573250",
+      "account_count": 24,
+      "transaction_row_count": 51
+    },
+    {
+      "component_id": "HI-Small-C000143842",
+      "representative_metadata_row_1based": 143842,
+      "representative_bank_id": "39242",
+      "representative_account_number": "80F5E9230",
+      "account_count": 23,
+      "transaction_row_count": 87
+    },
+    {
+      "component_id": "HI-Small-C000010887",
+      "representative_metadata_row_1based": 10887,
+      "representative_bank_id": "112733",
+      "representative_account_number": "805240460",
+      "account_count": 12,
+      "transaction_row_count": 21
+    },
+    {
+      "component_id": "HI-Small-C000034907",
+      "representative_metadata_row_1based": 34907,
+      "representative_bank_id": "314710",
+      "representative_account_number": "80ABE22C0",
+      "account_count": 11,
+      "transaction_row_count": 24
+    },
+    {
+      "component_id": "HI-Small-C000128877",
+      "representative_metadata_row_1based": 128877,
+      "representative_bank_id": "113",
+      "representative_account_number": "81019C470",
+      "account_count": 11,
+      "transaction_row_count": 21
+    },
+    {
+      "component_id": "HI-Small-C000245872",
+      "representative_metadata_row_1based": 245872,
+      "representative_bank_id": "36824",
+      "representative_account_number": "80A6C2470",
+      "account_count": 11,
+      "transaction_row_count": 17
+    },
+    {
+      "component_id": "HI-Small-C000052797",
+      "representative_metadata_row_1based": 52797,
+      "representative_bank_id": "319947",
+      "representative_account_number": "8074035F0",
+      "account_count": 10,
+      "transaction_row_count": 20
+    },
+    {
+      "component_id": "HI-Small-C000111597",
+      "representative_metadata_row_1based": 111597,
+      "representative_bank_id": "313615",
+      "representative_account_number": "805953070",
+      "account_count": 10,
+      "transaction_row_count": 20
+    },
+    {
+      "component_id": "HI-Small-C000026908",
+      "representative_metadata_row_1based": 26908,
+      "representative_bank_id": "39289",
+      "representative_account_number": "80384D6C0",
+      "account_count": 10,
+      "transaction_row_count": 19
+    }
+  ],
+  "outside_largest_transaction_component": {
+    "components": 114138,
+    "accounts": 142999,
+    "transaction_rows": 203776,
+    "maximum_account_count": 24,
+    "maximum_transaction_row_count": 95
+  },
+  "checks": {
+    "small_fixture_including_duplicate_self_reverse_and_inactive_nodes": "passed",
+    "matches_previous_full_file_counts": "passed",
+    "inventory_unique_component_ids": "passed",
+    "inventory_account_sum_equals_observed_active_accounts": "passed",
+    "inventory_transaction_row_sum_equals_source_rows": "passed",
+    "csv_readback_count_and_sums": "passed",
+    "exact_distributions_weighted_sums_match_totals": "passed"
+  },
+  "inventory_sha256": "6fece0f8f9ea7dfdb422f084b1b544f98a1e6a4f5ce96bef07e1b1824737c90b",
+  "elapsed_seconds": 11.593
+}

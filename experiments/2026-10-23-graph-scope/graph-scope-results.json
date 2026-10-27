@@ -1,0 +1,269 @@
+{
+  "source": "IBM HI-Small pinned local files",
+  "definition": "Weak account components of observed transactions: ignore edge direction for connectivity, retain every row for transaction counts. No temporal path constraint. No entity ownership edges. Inactive metadata accounts excluded.",
+  "probe_window": {
+    "start_inclusive": "2022/09/02 01:07",
+    "end_exclusive": "2022/09/05 21:21"
+  },
+  "graphs": {
+    "full_file": {
+      "transactions": 5078345,
+      "active_accounts": 515088,
+      "weak_components": 114139,
+      "component_count_by_account_size": {
+        "10000+": 1,
+        "2-9": 21774,
+        "1": 92354,
+        "10-99": 10
+      },
+      "largest_components": [
+        {
+          "accounts": 372089,
+          "transactions": 4874569,
+          "account_fraction": 0.7223794769049172,
+          "transaction_fraction": 0.9598735414785723
+        },
+        {
+          "accounts": 24,
+          "transactions": 51,
+          "account_fraction": 4.659398005777654e-05,
+          "transaction_fraction": 1.0042641844931765e-05
+        },
+        {
+          "accounts": 23,
+          "transactions": 87,
+          "account_fraction": 4.4652564222035845e-05,
+          "transaction_fraction": 1.7131565500177717e-05
+        },
+        {
+          "accounts": 12,
+          "transactions": 21,
+          "account_fraction": 2.329699002888827e-05,
+          "transaction_fraction": 4.135205465560138e-06
+        },
+        {
+          "accounts": 11,
+          "transactions": 24,
+          "account_fraction": 2.135557419314758e-05,
+          "transaction_fraction": 4.7259491034973005e-06
+        },
+        {
+          "accounts": 11,
+          "transactions": 21,
+          "account_fraction": 2.135557419314758e-05,
+          "transaction_fraction": 4.135205465560138e-06
+        },
+        {
+          "accounts": 11,
+          "transactions": 17,
+          "account_fraction": 2.135557419314758e-05,
+          "transaction_fraction": 3.3475472816439212e-06
+        },
+        {
+          "accounts": 10,
+          "transactions": 20,
+          "account_fraction": 1.941415835740689e-05,
+          "transaction_fraction": 3.938290919581084e-06
+        },
+        {
+          "accounts": 10,
+          "transactions": 20,
+          "account_fraction": 1.941415835740689e-05,
+          "transaction_fraction": 3.938290919581084e-06
+        },
+        {
+          "accounts": 10,
+          "transactions": 19,
+          "account_fraction": 1.941415835740689e-05,
+          "transaction_fraction": 3.74137637360203e-06
+        }
+      ]
+    },
+    "primary_period": {
+      "transactions": 5077237,
+      "active_accounts": 515078,
+      "weak_components": 114244,
+      "component_count_by_account_size": {
+        "10000+": 1,
+        "2-9": 21811,
+        "1": 92422,
+        "10-99": 10
+      },
+      "largest_components": [
+        {
+          "accounts": 371915,
+          "transactions": 4873162,
+          "account_fraction": 0.7220556886529808,
+          "transaction_fraction": 0.959805894426437
+        },
+        {
+          "accounts": 24,
+          "transactions": 51,
+          "account_fraction": 4.659488465824594e-05,
+          "transaction_fraction": 1.0044833439920177e-05
+        },
+        {
+          "accounts": 23,
+          "transactions": 87,
+          "account_fraction": 4.465343113081902e-05,
+          "transaction_fraction": 1.7135304103393242e-05
+        },
+        {
+          "accounts": 12,
+          "transactions": 21,
+          "account_fraction": 2.329744232912297e-05,
+          "transaction_fraction": 4.136107887025955e-06
+        },
+        {
+          "accounts": 11,
+          "transactions": 24,
+          "account_fraction": 2.1355988801696055e-05,
+          "transaction_fraction": 4.726980442315377e-06
+        },
+        {
+          "accounts": 11,
+          "transactions": 21,
+          "account_fraction": 2.1355988801696055e-05,
+          "transaction_fraction": 4.136107887025955e-06
+        },
+        {
+          "accounts": 11,
+          "transactions": 17,
+          "account_fraction": 2.1355988801696055e-05,
+          "transaction_fraction": 3.3482778133067255e-06
+        },
+        {
+          "accounts": 10,
+          "transactions": 20,
+          "account_fraction": 1.941453527426914e-05,
+          "transaction_fraction": 3.939150368596148e-06
+        },
+        {
+          "accounts": 10,
+          "transactions": 20,
+          "account_fraction": 1.941453527426914e-05,
+          "transaction_fraction": 3.939150368596148e-06
+        },
+        {
+          "accounts": 10,
+          "transactions": 19,
+          "account_fraction": 1.941453527426914e-05,
+          "transaction_fraction": 3.7421928501663404e-06
+        }
+      ]
+    },
+    "probe_window": {
+      "transactions": 1551162,
+      "active_accounts": 365388,
+      "weak_components": 33869,
+      "component_count_by_account_size": {
+        "2-9": 33787,
+        "10000+": 1,
+        "10-99": 24,
+        "1": 57
+      },
+      "largest_components": [
+        {
+          "accounts": 290027,
+          "transactions": 1492740,
+          "account_fraction": 0.7937507526246073,
+          "transaction_fraction": 0.9623366224804373
+        },
+        {
+          "accounts": 68,
+          "transactions": 72,
+          "account_fraction": 0.0001861035392514259,
+          "transaction_fraction": 4.6416815264943314e-05
+        },
+        {
+          "accounts": 59,
+          "transactions": 58,
+          "account_fraction": 0.00016147218846814893,
+          "transaction_fraction": 3.7391323407871e-05
+        },
+        {
+          "accounts": 29,
+          "transactions": 37,
+          "account_fraction": 7.936768585722575e-05,
+          "transaction_fraction": 2.3853085622262535e-05
+        },
+        {
+          "accounts": 29,
+          "transactions": 31,
+          "account_fraction": 7.936768585722575e-05,
+          "transaction_fraction": 1.998501768351726e-05
+        },
+        {
+          "accounts": 25,
+          "transactions": 52,
+          "account_fraction": 6.842041884243598e-05,
+          "transaction_fraction": 3.352325546912572e-05
+        },
+        {
+          "accounts": 23,
+          "transactions": 36,
+          "account_fraction": 6.29467853350411e-05,
+          "transaction_fraction": 2.3208407632471657e-05
+        },
+        {
+          "accounts": 21,
+          "transactions": 27,
+          "account_fraction": 5.747315182764623e-05,
+          "transaction_fraction": 1.7406305724353744e-05
+        },
+        {
+          "accounts": 21,
+          "transactions": 24,
+          "account_fraction": 5.747315182764623e-05,
+          "transaction_fraction": 1.5472271754981105e-05
+        },
+        {
+          "accounts": 20,
+          "transactions": 27,
+          "account_fraction": 5.473633507394879e-05,
+          "transaction_fraction": 1.7406305724353744e-05
+        }
+      ]
+    }
+  },
+  "cases": {
+    "case-c193": {
+      "packet_rows": 76,
+      "all_focus_incident_rows": 76,
+      "complete_for_declared_focus_query": true,
+      "packet_accounts": 21,
+      "all_packet_account_incident_rows_in_window": 258,
+      "additional_rows_when_expanding_to_all_packet_accounts": 182,
+      "accounts_after_that_one_expansion": 56,
+      "omitted_rows_between_already_displayed_accounts": 9,
+      "omitted_self_rows_on_already_displayed_accounts": 9,
+      "omitted_nonself_rows_between_already_displayed_accounts": 0,
+      "whole_weak_component_in_same_window": {
+        "accounts": 290027,
+        "transactions": 1492740
+      }
+    },
+    "case-7b4e": {
+      "packet_rows": 97,
+      "all_focus_incident_rows": 97,
+      "complete_for_declared_focus_query": true,
+      "packet_accounts": 21,
+      "all_packet_account_incident_rows_in_window": 346,
+      "additional_rows_when_expanding_to_all_packet_accounts": 249,
+      "accounts_after_that_one_expansion": 83,
+      "omitted_rows_between_already_displayed_accounts": 0,
+      "omitted_self_rows_on_already_displayed_accounts": 0,
+      "omitted_nonself_rows_between_already_displayed_accounts": 0,
+      "whole_weak_component_in_same_window": {
+        "accounts": 290027,
+        "transactions": 1492740
+      }
+    }
+  },
+  "probe_cases_share_weak_component": true,
+  "elapsed_seconds": 15.655,
+  "source_sha256": {
+    "HI-Small_Trans.csv": "b19d39f515523373f991b689c07e11e7b0b95c17a2c27a87d91584ae16c5b040",
+    "HI-Small_accounts.csv": "786808526e33cfc441212dd6fccda7edfc24172149bed59c6ef59b186836b014"
+  }
+}

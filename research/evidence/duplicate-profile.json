@@ -1,0 +1,11 @@
+{
+  "method": "128-bit BLAKE2b full-row digests grouped by external sort; matches verified against raw full rows",
+  "duplicate_full_row_groups": 9,
+  "duplicate_extra_rows": 9,
+  "multiplicity_histogram": {
+    "2": 9
+  },
+  "verified_full_row_groups": 9,
+  "verified_duplicate_extra_rows": 9,
+  "digest_collisions_detected": 0
+}

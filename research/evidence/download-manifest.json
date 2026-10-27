@@ -1,0 +1,29 @@
+[
+  {
+    "filename": "HI-Small_Trans.csv",
+    "local_path": "/Users/notail.wang/Obsidian/n0tail/AML Agent Research/data/HI-Small_Trans.csv",
+    "bytes": 475664283,
+    "sha256": "b19d39f515523373f991b689c07e11e7b0b95c17a2c27a87d91584ae16c5b040",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ealtman2019/ibm-transactions-for-anti-money-laundering-aml/HI-Small_Trans.csv",
+    "publisher_version": 8,
+    "package_relative_path": "data/HI-Small_Trans.csv"
+  },
+  {
+    "filename": "HI-Small_accounts.csv",
+    "local_path": "/Users/notail.wang/Obsidian/n0tail/AML Agent Research/data/HI-Small_accounts.csv",
+    "bytes": 34053187,
+    "sha256": "786808526e33cfc441212dd6fccda7edfc24172149bed59c6ef59b186836b014",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ealtman2019/ibm-transactions-for-anti-money-laundering-aml/HI-Small_accounts.csv",
+    "publisher_version": 8,
+    "package_relative_path": "data/HI-Small_accounts.csv"
+  },
+  {
+    "filename": "HI-Small_Patterns.txt",
+    "local_path": "/Users/notail.wang/Obsidian/n0tail/AML Agent Research/data/HI-Small_Patterns.txt",
+    "bytes": 323844,
+    "sha256": "2c546b5ce6009e73851f0139af053cf845f08bf92f3bc82fe1eb937dec2ef39b",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ealtman2019/ibm-transactions-for-anti-money-laundering-aml/HI-Small_Patterns.txt",
+    "publisher_version": 8,
+    "package_relative_path": "data/HI-Small_Patterns.txt"
+  }
+]

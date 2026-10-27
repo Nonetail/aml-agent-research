@@ -1,0 +1,47 @@
+{
+  "source": "prototype/local-data/generated/batch-agent-full-500-v1/ledger.sqlite",
+  "calls": [
+    {
+      "call_id": 1,
+      "role": "batch-navigator",
+      "local_prompt_tokens": 725,
+      "provider_prompt_tokens": 724,
+      "provider_minus_local": -1
+    },
+    {
+      "call_id": 2,
+      "role": "batch-reviewer",
+      "local_prompt_tokens": 2336,
+      "provider_prompt_tokens": 2335,
+      "provider_minus_local": -1
+    },
+    {
+      "call_id": 3,
+      "role": "batch-navigator",
+      "local_prompt_tokens": 1116,
+      "provider_prompt_tokens": 1115,
+      "provider_minus_local": -1
+    },
+    {
+      "call_id": 4,
+      "role": "batch-reviewer",
+      "local_prompt_tokens": 6350,
+      "provider_prompt_tokens": 6349,
+      "provider_minus_local": -1
+    },
+    {
+      "call_id": 5,
+      "role": "batch-navigator",
+      "local_prompt_tokens": 1923,
+      "provider_prompt_tokens": 1922,
+      "provider_minus_local": -1
+    },
+    {
+      "call_id": 6,
+      "role": "batch-reviewer",
+      "local_prompt_tokens": 1965,
+      "provider_prompt_tokens": 1964,
+      "provider_minus_local": -1
+    }
+  ]
+}

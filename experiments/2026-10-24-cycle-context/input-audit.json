@@ -1,0 +1,320 @@
+{
+  "audit_time_utc": "2026-10-23T14:15:12.616646+00:00",
+  "method": "Read-only original SQLite field/label comparison; independent in-memory SQL 2/3/4-edge joins; independent account-cluster union; frozen hash comparison. No provider calls.",
+  "passed": true,
+  "runtime_cases": 9,
+  "total_runtime_row_instances": 54000,
+  "distinct_source_rows": 15691,
+  "source_field_mismatches": 0,
+  "label_mismatches": 0,
+  "missing_original_rows": 0,
+  "other_selected_cluster_pool_rows": 0,
+  "cases": {
+    "control-cycle": {
+      "pool_rows": 6000,
+      "base_rows": 1500,
+      "base_cycles": 1,
+      "base_positive_rows": 2,
+      "target_valid": 0,
+      "target_count": 0,
+      "group": null,
+      "cluster": null,
+      "support_zero_labels": true
+    },
+    "control-acyclic": {
+      "pool_rows": 6000,
+      "base_rows": 1500,
+      "base_cycles": 0,
+      "base_positive_rows": 2,
+      "target_valid": 0,
+      "target_count": 0,
+      "group": null,
+      "cluster": null
+    },
+    "holdout-3": {
+      "pool_rows": 6000,
+      "base_rows": 1500,
+      "base_cycles": 1,
+      "base_positive_rows": 5,
+      "target_valid": 1,
+      "target_count": 1,
+      "group": 167,
+      "cluster": 167
+    },
+    "dev-4": {
+      "pool_rows": 6000,
+      "base_rows": 1500,
+      "base_cycles": 219,
+      "base_positive_rows": 37,
+      "target_valid": 1,
+      "target_count": 1,
+      "group": 68,
+      "cluster": 68
+    },
+    "holdout-2": {
+      "pool_rows": 6000,
+      "base_rows": 1500,
+      "base_cycles": 1,
+      "base_positive_rows": 4,
+      "target_valid": 1,
+      "target_count": 1,
+      "group": 143,
+      "cluster": 143
+    },
+    "control-natural": {
+      "pool_rows": 6000,
+      "base_rows": 1500,
+      "base_cycles": 0,
+      "base_positive_rows": 1,
+      "target_valid": 0,
+      "target_count": 0,
+      "group": null,
+      "cluster": null
+    },
+    "dev-3": {
+      "pool_rows": 6000,
+      "base_rows": 1500,
+      "base_cycles": 1,
+      "base_positive_rows": 5,
+      "target_valid": 1,
+      "target_count": 1,
+      "group": 74,
+      "cluster": 74
+    },
+    "dev-2": {
+      "pool_rows": 6000,
+      "base_rows": 1500,
+      "base_cycles": 6,
+      "base_positive_rows": 7,
+      "target_valid": 1,
+      "target_count": 1,
+      "group": 24,
+      "cluster": 24
+    },
+    "holdout-4": {
+      "pool_rows": 6000,
+      "base_rows": 1500,
+      "base_cycles": 4,
+      "base_positive_rows": 6,
+      "target_valid": 1,
+      "target_count": 1,
+      "group": 155,
+      "cluster": 155
+    }
+  },
+  "nested": [
+    {
+      "case": "dev-2",
+      "nested_sizes": [
+        300,
+        750,
+        1500
+      ],
+      "all_targets_visible": true
+    },
+    {
+      "case": "dev-3",
+      "nested_sizes": [
+        300,
+        750,
+        1500
+      ],
+      "all_targets_visible": true
+    },
+    {
+      "case": "dev-4",
+      "nested_sizes": [
+        300,
+        750,
+        1500
+      ],
+      "all_targets_visible": true
+    }
+  ],
+  "groupings": [
+    {
+      "group": "dev-2-graph-2",
+      "view_rows": [
+        750,
+        750
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 6,
+      "retained_cycles": 6,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-2-graph-3",
+      "view_rows": [
+        500,
+        500,
+        500
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 6,
+      "retained_cycles": 6,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-2-graph-4",
+      "view_rows": [
+        376,
+        375,
+        375,
+        374
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 6,
+      "retained_cycles": 6,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-2-chronological-3",
+      "view_rows": [
+        500,
+        500,
+        500
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 6,
+      "retained_cycles": 6,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-3-graph-2",
+      "view_rows": [
+        750,
+        750
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 1,
+      "retained_cycles": 1,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-3-graph-3",
+      "view_rows": [
+        500,
+        500,
+        500
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 1,
+      "retained_cycles": 1,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-3-graph-4",
+      "view_rows": [
+        375,
+        375,
+        375,
+        375
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 1,
+      "retained_cycles": 1,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-3-chronological-3",
+      "view_rows": [
+        500,
+        500,
+        500
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 1,
+      "retained_cycles": 1,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-4-graph-2",
+      "view_rows": [
+        750,
+        750
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 219,
+      "retained_cycles": 219,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-4-graph-3",
+      "view_rows": [
+        500,
+        500,
+        500
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 219,
+      "retained_cycles": 219,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-4-graph-4",
+      "view_rows": [
+        375,
+        375,
+        375,
+        375
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 219,
+      "retained_cycles": 219,
+      "retained_targets": 1,
+      "target_count": 1
+    },
+    {
+      "group": "dev-4-chronological-3",
+      "view_rows": [
+        500,
+        500,
+        500
+      ],
+      "unique_edges": 1500,
+      "duplicates": 0,
+      "whole_base_cycles": 219,
+      "retained_cycles": 57,
+      "retained_targets": 0,
+      "target_count": 1
+    }
+  ],
+  "frozen_input_hashes_checked": 21,
+  "current_and_snapshot_source_hashes_checked": 30,
+  "initial_jobs": 66,
+  "attempts_at_snapshot": 42,
+  "heldout_attempts_at_snapshot": [],
+  "requests_inspected": 42,
+  "errors": [],
+  "limitations": [
+    "Runtime/evaluator storage separation is not an OS sandbox; hosted requests expose only the ordinary table and fixed rules.",
+    "Positive packets deliberately seed targets and share substantial background; distinct reference clusters are not independent source populations.",
+    "Dev-4 baseline contains 219 structurally eligible cycles; exhaustive recovery is confounded by fixed4096-token output allowance. See separate output-capacity audit; do not interpret exhaustive recall alone as input comprehension.",
+    "Provider/model settings and existing source/reference public availability do not guarantee pretraining or incidental prior-exposure isolation.",
+    "Live attempt count is a point-in-time snapshot; this audit does not assert holdouts remain unexecuted after its timestamp."
+  ],
+  "rendered_request_row_instances_checked": 34196,
+  "rendered_request_field_mismatches": 0
+}

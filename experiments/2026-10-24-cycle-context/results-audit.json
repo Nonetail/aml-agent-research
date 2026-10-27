@@ -1,0 +1,117 @@
+{
+  "audit_time_utc": "2026-10-23T14:25:01.409110+00:00",
+  "results_sha256": "23f6f9ec6e734f50e4b2c84a73f31d0a2fcf68943264403c526687255c2ebcaa",
+  "data_checks_passed": true,
+  "matrix_counts": {
+    "initial": 66,
+    "followup": 30,
+    "diagnostics": 9
+  },
+  "attempted_calls": 105,
+  "parsed_answers_checked": 102,
+  "status_counts": {
+    "received": 102,
+    "invalid_response": 2,
+    "provider_error": 1
+  },
+  "independent_raw_valid_recovery_calls": [
+    {
+      "id": "dev-2--core-only--r1",
+      "condition": "core-only",
+      "raw_valid_cycle_count": 1,
+      "raw_reference_recovery": 1,
+      "strict_valid_cycle_count": 1,
+      "strict_reference_recovery": 1
+    },
+    {
+      "id": "dev-3--core-only--r1",
+      "condition": "core-only",
+      "raw_valid_cycle_count": 1,
+      "raw_reference_recovery": 1,
+      "strict_valid_cycle_count": 1,
+      "strict_reference_recovery": 1
+    },
+    {
+      "id": "dev-4--core-only--r1",
+      "condition": "core-only",
+      "raw_valid_cycle_count": 1,
+      "raw_reference_recovery": 1,
+      "strict_valid_cycle_count": 1,
+      "strict_reference_recovery": 1
+    }
+  ],
+  "strict_valid_recovery_calls": [
+    {
+      "id": "dev-2--core-only--r1",
+      "condition": "core-only",
+      "raw_valid_cycle_count": 1,
+      "raw_reference_recovery": 1,
+      "strict_valid_cycle_count": 1,
+      "strict_reference_recovery": 1
+    },
+    {
+      "id": "dev-3--core-only--r1",
+      "condition": "core-only",
+      "raw_valid_cycle_count": 1,
+      "raw_reference_recovery": 1,
+      "strict_valid_cycle_count": 1,
+      "strict_reference_recovery": 1
+    },
+    {
+      "id": "dev-4--core-only--r1",
+      "condition": "core-only",
+      "raw_valid_cycle_count": 1,
+      "raw_reference_recovery": 1,
+      "strict_valid_cycle_count": 1,
+      "strict_reference_recovery": 1
+    }
+  ],
+  "invalid_true_claims_independently_verified": 58,
+  "outside_coreonly_raw_valid_cycles": 0,
+  "outside_coreonly_strict_valid_cycles": 0,
+  "known_prompt_tokens": 7372214,
+  "known_completion_tokens": 30776,
+  "known_total_tokens": 7402990,
+  "unknown_usage_attempts": [
+    "dev-4--single-1500--r2"
+  ],
+  "unknown_reserved_token_units": 130851,
+  "known_plus_unknown_reservation": 7533841,
+  "timeouts": [
+    "dev-4--single-1500--r2"
+  ],
+  "truncations": [
+    "dev-3--single-300--r2",
+    "dev-3--single-750--r1"
+  ],
+  "development32_calls": 6,
+  "heldout32_calls": 0,
+  "overlap_calls": 12,
+  "all_overlap_anchors_degree_fallback": true,
+  "whole_path_interventions_unavailable": 3,
+  "errors": [],
+  "reporting_findings": [
+    {
+      "severity": "reporting",
+      "issue": "Movement JSON says whole_path_intervention_available=true for degree-fallback snapshots although no valid discovered path exists. Snapshot availability and whole-path intervention availability must be distinguished.",
+      "reported_to_root": true,
+      "status": "resolved and rechecked in regenerated report"
+    },
+    {
+      "severity": "reporting",
+      "issue": "Summary case_results and Markdown omit explicit raw-valid recovery. Per-call scores preserve it. Independent audit establishes raw-valid recovery also zero outside core-only, so strict whole-response rejection does not explain zero.",
+      "reported_to_root": true,
+      "status": "resolved and rechecked in regenerated report"
+    }
+  ],
+  "scope_limits": [
+    "Results apply to this provider/model, frozen prompt/schema, selected source packets and settings; they do not establish a general context comprehension threshold.",
+    "Core-only 3/3 tests minimal rule/format understanding, not discovery in clutter.",
+    "1500-row development gate is incomplete because one provider call timed out; completed answers havezero strict andraw recovery.",
+    "Acyclic/natural controls havezero structural cycles but nonzero positive rows, so positive labels and cycle presence are different outcomes.",
+    "Dev4 exhaustive 219-cycle output exceeds the 4,096-token output budget; reference recovery remains measurable.",
+    "Sequence costs reuse baseline responses for paired comparisons; operational total charges each attempt once."
+  ],
+  "reporting_recheck_time_utc": "2026-10-23T14:25:40.462347+00:00",
+  "unresolved_report_findings": 0
+}
